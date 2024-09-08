@@ -14,6 +14,9 @@ body {
 .topbar-content {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 .bg-red {
     background-color: red;
@@ -23,4 +26,30 @@ body {
 }
 .bg-green {
     background-color: green;
+}
+.logo {
+
+}
+.logo img {
+    width: 115px;
+}
+.btn {
+    display: inline-block;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.btn-rounded {
+    border-radius: 5px;    
+}
+.btn-rounded-xl {
+    border-radius: 20px;    
+}
+.btn-dark {
+    background-color: black;
 }
