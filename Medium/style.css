@@ -1,0 +1,26 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F7F4ED;
+    margin: 0px;
+    padding: 0px;
+}
+.topbar {
+    border-bottom: 1px solid black;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.topbar-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: green;
+}
