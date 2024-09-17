@@ -8,7 +8,7 @@ body {
     border-bottom: 1px solid black;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1200px; /* max-width: 1300px */
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -61,6 +61,13 @@ body {
 .btn-dark {
     background-color: black;
 }
+.btn-lg {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;    
+}
 .topmenu {
     text-align: right;
 }
@@ -85,6 +92,18 @@ body {
 .get-started-content {
     text-align: right;
     
+}
+.jumbotron {
+    padding-top: 100px;
+}
+.font-weight-normal {
+    font-weight: 300;
+}
+.font-size-big {
+    font-size: 100px;
+}
+h1 {
+    line-height: 0.9;
 }
 @media (max-width: 900px) {
     .topbar-content {
