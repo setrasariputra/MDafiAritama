@@ -1,3 +1,24 @@
 body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+}
+.topbar{
+    background-color: #2C3D50;
+    margin: 0;
+    padding: 1px 1px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.topbar-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
     background-color: red;
+}
+.topmenu {
+    background-color: blue;
 }
