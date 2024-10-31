@@ -17,7 +17,11 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 .logo {
-    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 110px;
 }
 .topmenu {
     background-color: blue;
