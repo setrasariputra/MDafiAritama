@@ -74,6 +74,12 @@ body {
     color: #333333;
     line-height: 1.2;
 }
+.main {
+
+}
+p.lead {
+    font-size: 20px;
+}
 .font-weight-light {
     font-weight: 200;   
 }
