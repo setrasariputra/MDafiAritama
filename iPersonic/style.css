@@ -62,3 +62,18 @@ body {
 .topmenu ul li a:hover {
     background-color: black;
 }
+.hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to bottom, #E2EBF0, #CFD9DF);
+}
+.hero h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 65px;
+    color: #333333;
+    line-height: 1.2;
+}
+.font-weight-light {
+    font-weight: 200;   
+}
